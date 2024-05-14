@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'roboto flex';
+}
+
+.jarak {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 269px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sidenav a:hover {
+    background-color: #F26240;
+    border-radius: 5px;
+}
+
+.sidenav a svg {
+    margin-right: 10px;
+    flex-shrink: 0; /* Mencegah ikon berubah ukuran */
+    width: 24px; /* Tetapkan lebar konsisten */
+    height: 24px; /* Tetapkan tinggi konsisten */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    margin: 20px 0px 50px 0px;
+}
+
+.logout {
+    margin-top: 30vh;
+    text-align: center; /* Center the logout button horizontally */
+}
+
+.logout button {
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.logout button:hover {
+    background-color: #8a8a8a;
+}
